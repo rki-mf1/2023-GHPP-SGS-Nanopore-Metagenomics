@@ -68,13 +68,15 @@ A practical introduction to long-read metagenomics data science in the context o
 | 15:45-16:00 | Wrap-up & questions |
 
 ### <a name="4"></a> Friday, 2023-09-29
-| Time        | The Rest & Open Questions |
+| Time        | The Rest & Open Questions & Work on own data |
 | --          | --               |
 | 09:00-10:00 | Debriefing previous day |
-| 10:00-11:00 | [Miscellaneous (bacteria)](day-misc/README.md) |
-| 11:00-12:00 | [Hands-on & demo](day-misc/hands-on.md) |
-| 12:00-12:30 | Wrap-up & questions |
-
+| 10:00-12:00 | Work on own data |
+| 12:00-13:00 | Lunch break |
+| 13:00-14:00 | Continue work on own data |
+| 14:00-14:30 | Wrap-up & questions |
+| Bonus I | [Miscellaneous (bacteria)](day-misc/README.md) |
+| Bonus II | [Hands-on & demo](day-misc/hands-on.md) |
 
 
 
