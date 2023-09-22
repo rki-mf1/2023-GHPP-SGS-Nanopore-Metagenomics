@@ -49,4 +49,4 @@ mamba install nanoplot
 NanoPlot --help
 ```
 
-Next: [Container & WMS](container-wms.md)
+Next: [Hands-on](hands-on.md)

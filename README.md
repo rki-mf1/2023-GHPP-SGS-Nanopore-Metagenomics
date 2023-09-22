@@ -21,10 +21,12 @@ A practical introduction to long-read metagenomics data science in the context o
 ### <a name="0"></a> Monday, 2023-09-25
 | Time        | Welcome, Introduction to metagenomics, Linux re-cap |
 | --          | --               |
-| 10:00-10:30 | Welcome & [introduction](day-welcome-linux-container-wms/general.md) |
-| 10:30-12:00 | [Linux re-cap](day-welcome-linux-container-wms/linux.md) |
+| 10:00-11:00 | Talk: Long-read Metagenomics (by Josh Quick) | 
+| 11:00-11:30 | Talk: RKI Genome Competence Center (MF1) |
+| 11:30-12:30 | Talk: [Metagenomic example projects](https://docs.google.com/presentation/d/1CmkZ28PHgQ8dVwmm-U82tjOR0sPEcOcTWkjQzWZd98o/edit?usp=sharing) | 
 | 12:00-13:00 | Lunch break |
-| 13:00-14:00 | [Container & WMS](day-welcome-linux-container-wms/container-wms.md) |
+| 13:00-13:15 | [General information](day-welcome-linux-container-wms/general.md) |
+| 13:00-14:00 | [Linux re-cap](day-welcome-linux-container-wms/linux.md) |
 | 14:00-14:30 | Coffee break |
 | 14:30-16:00 | [Hands-on & demo](day-welcome-linux-container-wms/hands-on.md) |
 | 16:00-16:15 | Wrap-up & questions |
@@ -33,12 +35,12 @@ A practical introduction to long-read metagenomics data science in the context o
 | Time        | Nanopore |
 | --          | --               |
 | 09:00-10:00 | Debriefing previous day |
-| 10:00-11:00 | [Nanopore intro](day-nanopore/README.md) |
+| 10:00-11:00 | [Nanopore intro](day-nanopore/nanopore.md) |
+| 11:00-11:30 | [Nanopore basecalling & data fromats](day-nanopore/nanopore.md) |
+| 11:30-12:00 | [Nanopore QC](day-nanopore/nanopore.md) |
 | 12:00-13:00 | Lunch break |
-| 13:00-13:30 | [Nanopore basecalling & data fromats](day-nanopore/README.md) |
-| 13:30-14:00 | [Nanopore QC](day-nanopore/README.md) |
+| 13:00-14:00 | [Long-read mapping](day-nanopore/mapping.md) |
 | 14:00-14:30 | Coffee break |
-| 14:30-16:00 | [Hands-on & demo (ONT isolate)](day-nanopore/hands-on.md) |
 | 14:30-16:00 | [Hands-on & demo (metagenomics)](day-nanopore/hands-on-metagenomics.md) |
 | 16:00-16:15 | Wrap-up & questions |
 
@@ -57,8 +59,7 @@ A practical introduction to long-read metagenomics data science in the context o
 | Time        | Metagenome assembly, binning, and annotation |
 | --          | --               |
 | 09:00-10:00 | Debriefing previous day |
-| 10:00-11:00 | [Metagenome-assembled genomes (MAGs)](day-metagenomic-assembly/README.md) |
-| 11:00-12:00 | [MAG quality and gene annotation](day-metagenomic-assembly/README.md) |
+| 10:00-12:00 | [Metagenome-assembled genomes (MAGs)](day-metagenomic-assembly/README.md) |
 | 12:00-13:00 | Lunch break |
 | 13:00-14:30 | [Hands-on & demo](day-metagenomic-assembly/hands-on.md) |
 | 14:30-15:00 | Coffee break |

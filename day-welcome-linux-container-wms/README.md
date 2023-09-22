@@ -6,7 +6,6 @@ Welcome to the workshop! For every day, you will usually find a separate `README
 
 * [General](general.md)
 * [Linux re-cap](linux.md)
-* [Container & WMS](container-wms.md)
 
 ## Practical part
 
