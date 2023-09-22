@@ -36,7 +36,7 @@ Nanopore data, especially in the older days, had high error rates. With the late
 
 In the context of this little hands-on workshop, we will skip the polishing of the initial Flye assembly. But keep in mind, that when you want to produce high-quality metagenome-assembled genomes (MAGs), polishing might be an important part before you go into binning of your contigs and annotation. 
 
-You can find some hands-on information about polishing [here](https://github.com/rki-mf1/workshop-nanopore-bioinformatics/tree/main/day-polishing-variant-calling). Note, that this is focused on assembly and polishing of **single bacteria isolates** but can be also transfered to metagenomics data. 
+You can find some hands-on information about polishing [here](../day-polishing-variant-calling). But note, that this is focused on assembly and polishing of **single bacteria isolates** but can be also transfered to metagenomics data. 
 
 ## Visualization of the assembly (Bandage)
 ```bash
