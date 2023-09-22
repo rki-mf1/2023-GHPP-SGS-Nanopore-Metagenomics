@@ -2,6 +2,60 @@
 
 We will continue with the same example data from [ZymoBIOMICS Microbial Community Standard II, Log Distribution (CSII)](https://www.zymoresearch.de/products/zymobiomics-microbial-community-dna-standard-ii-log-distribution), downsampled to 10% of the total number of reads, that we started working on yesterday. Continue using the length-filtered data set that you should have stored in a folder such as `reads/zymo-2022-barcode01-perc10.filtered.fastq`.
 
+## Blast some reads online
+
+But first, let's again do some simple search. Check the first or any other read in the data set:
+
+```bash
+head -4 reads/zymo-2022-barcode01-perc10.filtered.fastq
+```
+
+Copy the nucleotide sequence and [BLAST online](https://blast.ncbi.nlm.nih.gov/Blast.cgi) (using Nucleotide BLAST search).
+
+What do you found? Check also the alignment. Do you see differences (errors?).
+
+
+### Mapping (minimap2)
+
+Now, we want to map the long reads to one of the reference genomes and visualize the data. **Remember that we downloaded the reference genomes yesterday!.** As an example, we select the _Listeria_ reference genome. 
+
+```bash
+# navigat to your main project dir and create a new output folder for mappings
+mkdir mapping
+minimap2 -ax map-ont reference-genomes/GCF_000196035.1_ASM19603v1_genomic.fna reads/zymo-2022-barcode01-perc10.filtered.fastq > mapping/zymo-2022-listeria.sam
+```
+[Publication](https://doi.org/10.1093/bioinformatics/bty191) | [Code](https://github.com/lh3/minimap2)
+
+Inspect the resulting SAM file. Check the [SAM format specification](https://samtools.github.io/hts-specs/SAMv1.pdf).
+
+### Visualization of the mapping (IGV)
+
+```bash
+# first, we need to convert the SAM file into a sorted BAM file to load it subsequently in IGV
+samtools view -bS mapping/zymo-2022-listeria.sam | samtools sort -@ 4 > mapping/zymo-2022-listeria.sorted.bam  
+samtools index mapping/zymo-2022-listeria.sorted.bam
+
+# start IGV browser and load the assembly (FASTA) and BAM file, inspect the output
+igv &
+```
+
+### Alternative: Visualization of mapping (Tablet)
+
+```bash
+# open the GUI
+tablet &
+
+# load mapping file as 'primary assembly'
+# ->  mapping/zymo-2022-listeria.sam
+
+# load assembly file as 'Reference/consensus file'
+# ->  reference-genomes/GCF_000196035.1_ASM19603v1_genomic.fna
+```
+[Publication](http://dx.doi.org/10.1093/bib/bbs012) | [Code](https://ics.hutton.ac.uk/tablet/)
+
+__Alternative ways to visualize such a mapping are given by (commercial software) such as Geneious or CLC Genomic Workbench.__
+
+
 ## Kraken2 Install
 
 We want to use Kraken 2 for read classification. Let's install it:
