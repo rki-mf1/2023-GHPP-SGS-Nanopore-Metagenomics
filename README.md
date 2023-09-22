@@ -23,13 +23,14 @@ A practical introduction to long-read metagenomics data science in the context o
 | --          | --               |
 | 10:00-11:00 | Talk: Long-read Metagenomics (by Josh Quick) | 
 | 11:00-11:30 | Talk: RKI Genome Competence Center (MF1) |
-| 11:30-12:30 | Talk: [Metagenomic example projects](https://docs.google.com/presentation/d/1CmkZ28PHgQ8dVwmm-U82tjOR0sPEcOcTWkjQzWZd98o/edit?usp=sharing) | 
-| 12:00-13:00 | Lunch break |
-| 13:00-13:15 | [General information](day-welcome-linux-container-wms/general.md) |
-| 13:00-14:00 | [Linux re-cap](day-welcome-linux-container-wms/linux.md) |
-| 14:00-14:30 | Coffee break |
-| 14:30-16:00 | [Hands-on & demo](day-welcome-linux-container-wms/hands-on.md) |
-| 16:00-16:15 | Wrap-up & questions |
+| 11:30-11:45 | [General information](day-welcome-linux-container-wms/general.md) |
+| 11:45-12:30 | [Linux re-cap](day-welcome-linux-container-wms/linux.md) |
+| 12:30-13:30 | Lunch break |
+| 13:30-14:30 | Continue Linux re-cap |
+| 14:30-14:45 | Coffee break |
+| 14:45-15:30 | [Hands-on & demo](day-welcome-linux-container-wms/hands-on.md) |
+| 15:30-16:00 | Wrap-up & questions |
+| 16:00-17:00 | Bonus talks: [Metagenomic example projects](https://docs.google.com/presentation/d/1CmkZ28PHgQ8dVwmm-U82tjOR0sPEcOcTWkjQzWZd98o/edit?usp=sharing) | 
 
 ### <a name="1"></a> Tuesday, 2023-09-26
 | Time        | Nanopore |
