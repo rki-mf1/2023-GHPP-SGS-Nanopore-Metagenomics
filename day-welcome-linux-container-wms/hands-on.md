@@ -177,14 +177,14 @@ conda config --add channels conda-forge
 
 ```bash
 # -n parameter to specify the name
-mamba create -p envs/workshop
+mamba create -n workshop
 
 # activate this environment
-conda activate envs/workshop
+conda activate workshop
 
 # You should now see (workshop) at the start of each line.
 # You switched from the default 'base' environment to the 'workshop' environment.
-# Which is placed in a folder envs/workshop
+# Which is placed in a folder workshop in the ~/mambaforge/envs directory
 ```
 
 
