@@ -106,7 +106,9 @@ kraken2-build --build --threads 4 --db mock10
 # Create a new folder for that extra database
 mkdir mock9
 # we dont want to download the NCBI taxonomy again, so we "link" it into that new folder
-ln -s mock10/taxonomy mock9/
+cd mock9
+ln -s ../mock10/taxonomy ./
+cd ../
 
 # now we add the genomes again to the mock9 library but skipping the one for Listeria
 for GENOME in ../../reference-genomes/*.fna; do
