@@ -22,20 +22,18 @@ A practical introduction to long-read metagenomics data science in the context o
 | Time        | Welcome, Introduction to metagenomics, Linux re-cap |
 | --          | --               |
 | 10:00-11:00 | Talk: Long-read Metagenomics (by Josh Quick) | 
-| 11:00-11:30 | Talk: RKI Genome Competence Center (MF1) |
-| 11:30-11:45 | [General information](day-welcome-linux-container-wms/general.md) |
-| 11:45-12:30 | [Linux re-cap](day-welcome-linux-container-wms/linux.md) |
+| 11:00-11:15 | [General information](day-welcome-linux-container-wms/general.md) |
+| 11:15-12:30 | [Linux re-cap](day-welcome-linux-container-wms/linux.md) |
 | 12:30-13:30 | Lunch break |
-| 13:30-14:30 | Continue Linux re-cap |
-| 14:30-14:45 | Coffee break |
-| 14:45-15:30 | [Hands-on & demo](day-welcome-linux-container-wms/hands-on.md) |
-| 15:30-16:00 | Wrap-up & questions |
-| 16:00-17:00 | Bonus talks: [Metagenomic example projects](https://docs.google.com/presentation/d/1CmkZ28PHgQ8dVwmm-U82tjOR0sPEcOcTWkjQzWZd98o/edit?usp=sharing) | 
+| 13:30-14:00 | Talk: RKI Genome Competence Center (MF1) |
+| 14:00-14:30 | Continue Linux re-cap |
+| 14:30-15:30 | [Hands-on & demo](day-welcome-linux-container-wms/hands-on.md) |
+| 15:30-16:30 | Wrap-up & self study |
 
 ### <a name="1"></a> Tuesday, 2023-09-26
 | Time        | Nanopore |
 | --          | --               |
-| 09:00-10:00 | Debriefing previous day |
+| 09:00-10:00 | Debriefing previous day and Bonus talks: [Metagenomic example projects](https://docs.google.com/presentation/d/1CmkZ28PHgQ8dVwmm-U82tjOR0sPEcOcTWkjQzWZd98o/edit?usp=sharing)  |
 | 10:00-11:00 | [Nanopore intro](day-nanopore/nanopore.md) |
 | 11:00-11:30 | [Nanopore basecalling & data fromats](day-nanopore/nanopore.md) |
 | 11:30-12:00 | [Nanopore QC](day-nanopore/nanopore.md) |
