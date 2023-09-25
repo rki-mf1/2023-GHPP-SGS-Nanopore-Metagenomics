@@ -33,7 +33,7 @@ A practical introduction to long-read metagenomics data science in the context o
 ### <a name="1"></a> Tuesday, 2023-09-26
 | Time        | Nanopore |
 | --          | --               |
-| 09:00-10:00 | Debriefing previous day and Bonus talks: [Metagenomic example projects](https://docs.google.com/presentation/d/1CmkZ28PHgQ8dVwmm-U82tjOR0sPEcOcTWkjQzWZd98o/edit?usp=sharing)  |
+| 09:00-10:00 | Debriefing previous day and RKI MF1 intro |
 | 10:00-11:00 | [Nanopore intro](day-nanopore/nanopore.md) |
 | 11:00-11:30 | [Nanopore basecalling & data fromats](day-nanopore/nanopore.md) |
 | 11:30-12:00 | [Nanopore QC](day-nanopore/nanopore.md) |
@@ -42,6 +42,7 @@ A practical introduction to long-read metagenomics data science in the context o
 | 14:00-14:30 | Coffee break |
 | 14:30-16:00 | [Hands-on & demo (metagenomics)](day-nanopore/hands-on-metagenomics.md) |
 | 16:00-16:15 | Wrap-up & questions |
+| Bonus talks | [Metagenomic example projects](https://docs.google.com/presentation/d/1CmkZ28PHgQ8dVwmm-U82tjOR0sPEcOcTWkjQzWZd98o/edit?usp=sharing) |
 
 ### <a name="10"></a> Wednesday, 2023-09-27
 | Time        | Metagenomic read classification |
