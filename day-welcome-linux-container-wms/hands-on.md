@@ -134,7 +134,7 @@ Due to competing requests it may take some time until the requested resources ca
 
 ```bash
 # Switch to a directory with enough space, this can be /scratch on a HPC or your ~ (remember that's short for /home/$USER) on your laptop
-cd /scratch/$USER
+cd /scratch/$USER #Only if you are on the HPC, otherwise go to your $HOME
 
 # make a new folder called 'workshop'
 mkdir workshop
