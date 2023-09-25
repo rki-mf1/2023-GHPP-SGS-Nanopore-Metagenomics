@@ -16,7 +16,7 @@ A practical introduction to long-read metagenomics data science in the context o
 
 ## Schedule
 
-> All events are held at NU, room <...>
+> All events are held at NU, room N04.03.028
 
 ### <a name="0"></a> Monday, 2023-09-25
 | Time        | Welcome, Introduction to metagenomics, Linux re-cap |
