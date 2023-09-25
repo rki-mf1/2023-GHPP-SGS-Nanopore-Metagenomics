@@ -161,11 +161,13 @@ cd ..
 
 ## Excercise
 
-Now check your own data! Perform QC. How does your own data compare to the example data in erms of yield and read length?
+Now check your own data! We uploaded your runs [here](https://u.pcloud.link/publink/show?code=kZ2xkvVZ1XvDelocd5VE8L45fTc1a0xBu5oy), please download your data set because we will delete the data from the online repository in the next days.
 
 **It's a good idea to make a new project folder for working on a new data set!**
 
+First, place the archive of your run somewhere where you want to work on the data. Then, `unzip` the archive. Investigate the folder. You should see one `fastq_pass` folder with subfolders for the barcodes. 
 
+Combine the reads in one barcode folder into a single `fastq.gz` file (use `cat` and a wildcard to do that). Perform QC. How does your own data compare to the example data in terms of yield and read length?
 
 
 ## Bonus (and a little detour into containers)
