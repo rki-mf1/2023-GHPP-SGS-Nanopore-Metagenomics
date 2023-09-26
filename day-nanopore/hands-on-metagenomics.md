@@ -159,7 +159,7 @@ cd ..
 ```
 
 
-## Excercise
+## Exercise
 
 Now check your own data! We uploaded your runs [here](https://u.pcloud.link/publink/show?code=kZ2xkvVZ1XvDelocd5VE8L45fTc1a0xBu5oy), please download your data set because we will delete the data from the online repository in the next days. If internet connection is bad, we can also provide the data on an external drive.
 
