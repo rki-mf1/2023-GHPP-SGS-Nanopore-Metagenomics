@@ -50,7 +50,7 @@ A practical introduction to long-read metagenomics data science in the context o
 | 09:30-11:00 | [Long-read mapping](day-nanopore/mapping.md) & [Hands-on & demo, Part I Mapping](day-metagenomic-classification/hands-on.md) |
 | 11:00-12:00 | [Metagenomic read classification](day-metagenomic-classification/README.md) |
 | 12:00-13:00 | Lunch break |
-| 13:00-14:30 | [Hands-on & demo](day-metagenomic-classification/hands-on.md) |
+| 13:00-14:30 | [Hands-on & demo, Part II Classification](day-metagenomic-classification/hands-on.md) |
 | 14:30-15:00 | Coffee break |
 | 15:00-15:45 | Continue practical session |
 | 15:45-16:00 | Wrap-up & questions |
