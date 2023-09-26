@@ -152,7 +152,7 @@ wget "https://github.com/conda-forge/miniforge/releases/latest/download/Mambafor
 # ln -s /scratch/dot-conda ~/.conda
 
 # Run installer
-bash Mambaforge-Linux-x86_64
+bash Mambaforge-Linux-x86_64.sh
 # Use space to scroll down the license agreement
 # then type 'yes'
 # accept the default install location with ENTER

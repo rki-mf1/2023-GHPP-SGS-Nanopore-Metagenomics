@@ -38,7 +38,6 @@ A practical introduction to long-read metagenomics data science in the context o
 | 11:00-11:30 | [Nanopore basecalling & data formats](day-nanopore/nanopore.md) |
 | 11:30-12:00 | [Nanopore QC](day-nanopore/nanopore.md) |
 | 12:00-13:00 | Lunch break |
-| 13:00-14:00 | [Long-read mapping](day-nanopore/mapping.md) |
 | 14:00-14:30 | Coffee break |
 | 14:30-16:00 | [Hands-on & demo (metagenomics)](day-nanopore/hands-on-metagenomics.md) |
 | 16:00-16:15 | Wrap-up & questions |
@@ -47,8 +46,9 @@ A practical introduction to long-read metagenomics data science in the context o
 ### <a name="10"></a> Wednesday, 2023-09-27
 | Time        | Metagenomic read classification |
 | --          | --               |
-| 09:00-10:00 | Debriefing previous day |
-| 10:00-12:00 | [Metagenomic read classification](day-metagenomic-classification/README.md) |
+| 09:00-09:30 | Debriefing previous day |
+| 09:30-11:00 | [Long-read mapping](day-nanopore/mapping.md) & [Hands-on & demo, Part I Mapping](day-metagenomic-classification/hands-on.md) |
+| 11:00-12:00 | [Metagenomic read classification](day-metagenomic-classification/README.md) |
 | 12:00-13:00 | Lunch break |
 | 13:00-14:30 | [Hands-on & demo](day-metagenomic-classification/hands-on.md) |
 | 14:30-15:00 | Coffee break |
