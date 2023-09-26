@@ -59,12 +59,12 @@ A practical introduction to long-read metagenomics data science in the context o
 | Time        | Metagenome assembly, binning, and annotation |
 | --          | --               |
 | 09:00-10:00 | Debriefing previous day |
-| 10:00-12:00 | [Metagenome-assembled genomes (MAGs)](day-metagenomic-assembly/README.md) |
+| 10:00-12:00 | Detour: 16S Metagenomics introduction and example pipeline |
 | 12:00-13:00 | Lunch break |
-| 13:00-14:30 | [Hands-on & demo](day-metagenomic-assembly/hands-on.md) |
-| 14:30-15:00 | Coffee break |
-| 15:00-15:45 | Continue practical session |
-| 15:45-16:00 | Wrap-up & questions |
+| 13:00-14:00 | [Metagenome-assembled genomes (MAGs)](day-metagenomic-assembly/README.md) |
+| 14:00-14:30 | Coffee break |
+| 14:30-16:00 | [Hands-on & demo](day-metagenomic-assembly/hands-on.md) |
+| 16:00-16:15 | Wrap-up & questions |
 
 ### <a name="4"></a> Friday, 2023-09-29
 | Time        | The Rest & Open Questions & Work on own data |
