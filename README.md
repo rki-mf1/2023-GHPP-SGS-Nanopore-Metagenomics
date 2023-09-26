@@ -35,7 +35,7 @@ A practical introduction to long-read metagenomics data science in the context o
 | --          | --               |
 | 09:00-10:00 | Debriefing previous day and RKI MF1 intro |
 | 10:00-11:00 | [Nanopore intro](day-nanopore/nanopore.md) |
-| 11:00-11:30 | [Nanopore basecalling & data fromats](day-nanopore/nanopore.md) |
+| 11:00-11:30 | [Nanopore basecalling & data formats](day-nanopore/nanopore.md) |
 | 11:30-12:00 | [Nanopore QC](day-nanopore/nanopore.md) |
 | 12:00-13:00 | Lunch break |
 | 13:00-14:00 | [Long-read mapping](day-nanopore/mapping.md) |
