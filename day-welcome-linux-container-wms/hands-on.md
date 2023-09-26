@@ -1,4 +1,4 @@
-# Workshop: Linux re-cap, Container, and WMS
+# Workshop: Linux re-cap, and WMS
 
 ## Hands-on
 
