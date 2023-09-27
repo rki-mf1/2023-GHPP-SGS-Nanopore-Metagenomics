@@ -22,7 +22,7 @@ Now, we want to map the long reads to one of the reference genomes and visualize
 ```bash
 # navigat to your main project dir and create a new output folder for mappings
 mkdir mapping
-minimap2 -ax map-ont reference-genomes/GCF_000196035.1_ASM19603v1_genomic.fna reads/zymo-2022-barcode01-perc10.filtered.fastq > mapping/zymo-2022-listeria.sam
+minimap2 -a -x map-ont reference-genomes/GCF_000196035.1_ASM19603v1_genomic.fna reads/zymo-2022-barcode01-perc10.filtered.fastq > mapping/zymo-2022-listeria.sam
 ```
 [Publication](https://doi.org/10.1093/bioinformatics/bty191) | [Code](https://github.com/lh3/minimap2)
 
@@ -32,7 +32,7 @@ Inspect the resulting SAM file. Check the [SAM format specification](https://sam
 
 ```bash
 # first, we need to convert the SAM file into a sorted BAM file to load it subsequently in IGV
-samtools view -bS mapping/zymo-2022-listeria.sam | samtools sort -@ 4 > mapping/zymo-2022-listeria.sorted.bam  
+samtools view -b -S mapping/zymo-2022-listeria.sam | samtools sort -@ 4 > mapping/zymo-2022-listeria.sorted.bam  
 samtools index mapping/zymo-2022-listeria.sorted.bam
 
 # start IGV browser and load the assembly (FASTA) and BAM file, inspect the output
