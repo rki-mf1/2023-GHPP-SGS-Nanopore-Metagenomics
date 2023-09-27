@@ -235,8 +235,8 @@ We can investigate the output files. But also visualize the results, e.g. with K
 
 ```bash
 # we install krona also in the kraken2 env
-conda activate kraken2
-mamba install -c bioconda krona
+conda activate envs/kraken2
+mamba install -y -c bioconda krona
 
 # when this is done, we need to update the NCBI taxonomy for Krona once:
 ktUpdateTaxonomy.sh
@@ -259,9 +259,9 @@ ktImportTaxonomy -t 5 -m 3 -o krona-results/mock10.krona.html kraken-results/moc
 There is a nice software suite called `krakentools` helping with formatting Kraken 2 output for subsequent analyses. To produce a similar Krona plot like before, we can also do:
 
 ```bash
-conda activate kraken2
+conda activate envs/kraken2
 # install krakentools
-mamba install -c bioconda krakentools
+mamba install -y -c bioconda krakentools
 # convert the kraken2 report output
 kreport2krona.py -r kraken-results/mock10.kraken.report -o kraken-results/mock10.kraken.report.krona
 # plot
